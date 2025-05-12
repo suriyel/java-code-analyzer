@@ -1,4 +1,4 @@
-package com.codeanalyzer.test;
+package com.codeanalyzer.ast;
 
 import com.codeanalyzer.ast.ASTParser;
 import com.codeanalyzer.ast.CodeEntity;
