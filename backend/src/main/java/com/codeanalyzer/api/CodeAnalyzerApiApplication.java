@@ -1,24 +1,18 @@
 package com.codeanalyzer.api;
 
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Info;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import springfox.documentation.builders.ApiInfoBuilder;
-import springfox.documentation.builders.PathSelectors;
-import springfox.documentation.builders.RequestHandlerSelectors;
-import springfox.documentation.service.ApiInfo;
-import springfox.documentation.spi.DocumentationType;
-import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * 代码分析系统REST API服务
  */
 @SpringBootApplication
-@EnableSwagger2
 public class CodeAnalyzerApiApplication {
 
     public static void main(String[] args) {
@@ -32,21 +26,12 @@ public class CodeAnalyzerApiApplication {
     @EnableWebMvc
     public static class WebConfig implements WebMvcConfigurer {
         @Bean
-        public Docket api() {
-            return new Docket(DocumentationType.SWAGGER_2)
-                    .select()
-                    .apis(RequestHandlerSelectors.basePackage("com.codeanalyzer.api"))
-                    .paths(PathSelectors.any())
-                    .build()
-                    .apiInfo(apiInfo());
-        }
-
-        private ApiInfo apiInfo() {
-            return new ApiInfoBuilder()
-                    .title("Java代码分析系统API")
-                    .description("提供Java代码解析、索引和检索功能")
-                    .version("1.0.0")
-                    .build();
+        public OpenAPI customOpenAPI() {
+            return new OpenAPI()
+                    .info(new Info()
+                            .title("Java代码分析系统API")
+                            .description("提供Java代码解析、索引和检索功能")
+                            .version("1.0.0"));
         }
     }
 }

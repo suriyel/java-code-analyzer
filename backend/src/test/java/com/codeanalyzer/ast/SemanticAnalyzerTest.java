@@ -12,6 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import static com.codeanalyzer.ast.Utils.writeString;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -36,7 +37,7 @@ class SemanticAnalyzerTest {
         // 创建一些Java类
         // 1. Calculator类
         Path calculatorPath = tempDir.resolve("Calculator.java");
-        Files.writeString(calculatorPath,
+        writeString(calculatorPath,
                 "/**\n" +
                         " * 简单计算器类\n" +
                         " */\n" +
@@ -65,7 +66,7 @@ class SemanticAnalyzerTest {
 
         // 2. CalculatorUser类（引用Calculator）
         Path userPath = tempDir.resolve("CalculatorUser.java");
-        Files.writeString(userPath,
+        writeString(userPath,
                 "/**\n" +
                         " * 计算器使用者\n" +
                         " */\n" +
@@ -89,7 +90,7 @@ class SemanticAnalyzerTest {
 
         // 3. SimilarCalculator类（与Calculator相似）
         Path similarPath = tempDir.resolve("SimilarCalculator.java");
-        Files.writeString(similarPath,
+        writeString(similarPath,
                 "/**\n" +
                         " * 另一个计算器实现\n" +
                         " */\n" +

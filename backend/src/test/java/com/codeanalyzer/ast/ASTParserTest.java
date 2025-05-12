@@ -1,30 +1,17 @@
 package com.codeanalyzer.ast;
 
-import com.codeanalyzer.ast.ASTParser;
-import com.codeanalyzer.ast.CodeEntity;
-import com.codeanalyzer.ast.IntermediateRepresentation;
-import com.codeanalyzer.ast.ParsedProjectStructure;
-import com.codeanalyzer.index.IndexLevel;
-import com.codeanalyzer.index.IndexManager;
-import com.codeanalyzer.index.SearchResult;
-import com.codeanalyzer.semantic.ConceptEntityResult;
-import com.codeanalyzer.semantic.DataFlowNode;
-import com.codeanalyzer.semantic.QualityIssue;
-import com.codeanalyzer.semantic.SemanticAnalyzer;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
-import org.springframework.boot.test.context.SpringBootTest;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Arrays;
-import java.util.List;
+import java.util.Set;
 
+import static com.codeanalyzer.ast.Utils.writeString;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -47,7 +34,7 @@ class ASTParserTest {
         // 创建一个简单的Java类
         String className = "SimpleClass";
         Path filePath = tempDir.resolve(className + ".java");
-        Files.writeString(filePath,
+        writeString(filePath,
                 "/**\n" +
                         " * 一个简单的类\n" +
                         " */\n" +
@@ -117,14 +104,14 @@ class ASTParserTest {
     void testInheritanceRelationship() throws IOException {
         // 创建一个父类
         Path parentPath = tempDir.resolve("Parent.java");
-        Files.writeString(parentPath,
+        writeString(parentPath,
                 "public class Parent {\n" +
                         "    public void parentMethod() {}\n" +
                         "}\n");
 
         // 创建一个子类
         Path childPath = tempDir.resolve("Child.java");
-        Files.writeString(childPath,
+        writeString(childPath,
                 "public class Child extends Parent {\n" +
                         "    @Override\n" +
                         "    public void parentMethod() {\n" +

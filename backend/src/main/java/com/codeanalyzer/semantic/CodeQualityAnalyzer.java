@@ -72,7 +72,7 @@ public class CodeQualityAnalyzer {
     public void analyzeField(CodeEntity entity) {
         // 检查命名规范
         String fieldName = entity.getName();
-        if (Character.isUpperCase(fieldName.charAt(0)) && !entity.getModifiers().contains(com.github.javaparser.ast.Modifier.STATIC)) {
+        if (Character.isUpperCase(fieldName.charAt(0)) && entity.getModifiers().stream().noneMatch(m -> m.toString().equals("STATIC"))) {
             addIssue(entity.getParentName() + "." + entity.getName(),
                     QualityIssueType.INCONSISTENT_NAMING,
                     QualitySeverity.INFO,

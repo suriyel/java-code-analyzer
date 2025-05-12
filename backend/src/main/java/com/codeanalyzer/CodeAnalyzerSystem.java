@@ -18,6 +18,7 @@ import java.util.Map;
 public class CodeAnalyzerSystem {
     private final ASTParser astParser;
     private final IndexManager indexManager;
+    private ParsedProjectStructure projectStructure;
 
     /**
      * 初始化代码分析系统
@@ -41,12 +42,21 @@ public class CodeAnalyzerSystem {
         System.out.println("开始分析项目: " + projectPath);
 
         // 1. 解析项目结构
-        ParsedProjectStructure projectStructure = astParser.parseProject(projectPath);
+        this.projectStructure = astParser.parseProject(projectPath);
         System.out.println("解析完成，共提取 " + projectStructure.getEntities().size() + " 个代码实体");
 
         // 2. 构建索引
         indexManager.buildIndex(projectStructure);
         System.out.println("索引构建完成");
+    }
+
+    /**
+     * 获取项目结构
+     *
+     * @return 项目结构对象
+     */
+    public ParsedProjectStructure getProjectStructure() {
+        return projectStructure;
     }
 
     /**

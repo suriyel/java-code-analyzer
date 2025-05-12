@@ -13,6 +13,7 @@ import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.List;
 
+import static com.codeanalyzer.ast.Utils.writeString;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -37,7 +38,7 @@ class IndexManagerTest {
 
         // 创建一个简单的Java类
         Path filePath = tempDir.resolve("TestClass.java");
-        Files.writeString(filePath,
+        writeString(filePath,
                 "/**\n" +
                         " * 测试数据库连接的类\n" +
                         " */\n" +
