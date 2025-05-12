@@ -1,0 +1,672 @@
+2025-05-13 02:24:05.116  INFO 11564 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 11564 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:24:05.117 DEBUG 11564 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:24:05.117  INFO 11564 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:24:05.907  INFO 11564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:24:05.916  INFO 11564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:24:05.918  INFO 11564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:24:06.044  INFO 11564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:24:06.045  INFO 11564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 886 ms
+2025-05-13 02:24:07.804  INFO 11564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54522 (http) with context path ''
+2025-05-13 02:24:07.810  INFO 11564 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.928 seconds (JVM running for 4.35)
+2025-05-13 02:24:08.071  INFO 11564 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:24:08.071  INFO 11564 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:24:08.072  INFO 11564 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:24:08.155  WARN 11564 --- [http-nio-auto-1-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2025-05-13 02:24:08.189  WARN 11564 --- [http-nio-auto-1-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2025-05-13 02:24:08.202  WARN 11564 --- [http-nio-auto-1-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2025-05-13 02:24:08.217  WARN 11564 --- [http-nio-auto-1-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2025-05-13 02:24:08.230  WARN 11564 --- [http-nio-auto-1-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2025-05-13 02:25:13.277  INFO 19788 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 19788 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:25:13.278 DEBUG 19788 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:25:13.278  INFO 19788 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:25:14.150  INFO 19788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:25:14.159  INFO 19788 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:25:14.159  INFO 19788 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:25:14.307  INFO 19788 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:25:14.308  INFO 19788 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 977 ms
+2025-05-13 02:25:16.056  INFO 19788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54564 (http) with context path ''
+2025-05-13 02:25:16.063  INFO 19788 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.067 seconds (JVM running for 4.618)
+2025-05-13 02:25:20.464  INFO 19788 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:25:20.464  INFO 19788 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:25:20.465  INFO 19788 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-13 02:28:24.013  WARN 19788 --- [http-nio-auto-1-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2025-05-13 02:30:46.870  INFO 26896 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 26896 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:30:46.871 DEBUG 26896 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:30:46.871  INFO 26896 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:30:47.727  INFO 26896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:30:47.736  INFO 26896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:30:47.737  INFO 26896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:30:47.876  INFO 26896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:30:47.876  INFO 26896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 959 ms
+2025-05-13 02:30:49.630  INFO 26896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54769 (http) with context path ''
+2025-05-13 02:30:49.637  INFO 26896 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.042 seconds (JVM running for 4.58)
+2025-05-13 02:30:49.970  INFO 26896 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:30:49.971  INFO 26896 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:30:49.971  INFO 26896 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-13 02:31:35.437  INFO 32584 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 32584 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:31:35.438 DEBUG 32584 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:31:35.439  INFO 32584 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:31:36.301  INFO 32584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:31:36.311  INFO 32584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:31:36.311  INFO 32584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:31:36.471  INFO 32584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:31:36.472  INFO 32584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 986 ms
+2025-05-13 02:31:38.236  INFO 32584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54787 (http) with context path ''
+2025-05-13 02:31:38.243  INFO 32584 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.082 seconds (JVM running for 4.641)
+2025-05-13 02:31:42.575  INFO 32584 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:31:42.575  INFO 32584 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:31:42.576  INFO 32584 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:32:29.527  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:32:29.573  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:32:29.574  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:32:29.617  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:32:29.617  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:32:29.660  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:32:29.660  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:32:29.703  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:32:29.703  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:32:29.704  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:32:29.704  INFO 32584 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:32:43.621  INFO 17440 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 17440 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:32:43.622 DEBUG 17440 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:32:43.623  INFO 17440 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:32:44.493  INFO 17440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:32:44.503  INFO 17440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:32:44.504  INFO 17440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:32:44.652  INFO 17440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:32:44.652  INFO 17440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 994 ms
+2025-05-13 02:32:46.203  INFO 17440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54817 (http) with context path ''
+2025-05-13 02:32:46.209  INFO 17440 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.818 seconds (JVM running for 4.254)
+2025-05-13 02:32:46.491  INFO 17440 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:32:46.492  INFO 17440 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:32:46.493  INFO 17440 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:32:47.032  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:32:47.076  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:32:47.077  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:32:47.122  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:32:47.122  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:32:47.167  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:32:47.167  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:32:47.207  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:32:47.207  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:32:47.208  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:32:47.208  INFO 17440 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:33:03.528  INFO 9516 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 9516 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:33:03.529 DEBUG 9516 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:33:03.529  INFO 9516 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:33:04.321  INFO 9516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:33:04.330  INFO 9516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:33:04.330  INFO 9516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:33:04.472  INFO 9516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:33:04.472  INFO 9516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 904 ms
+2025-05-13 02:33:06.031  INFO 9516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54828 (http) with context path ''
+2025-05-13 02:33:06.038  INFO 9516 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.746 seconds (JVM running for 4.199)
+2025-05-13 02:33:06.316  INFO 9516 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:33:06.317  INFO 9516 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:33:06.317  INFO 9516 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-13 02:33:06.831  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:33:06.877  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:33:06.878  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:33:06.920  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:33:06.920  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:33:06.964  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:33:06.964  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:33:07.006  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:33:07.007  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:33:07.007  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:33:07.007  INFO 9516 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:33:20.415  INFO 32232 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 32232 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:33:20.416 DEBUG 32232 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:33:20.416  INFO 32232 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:33:21.194  INFO 32232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:33:21.202  INFO 32232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:33:21.202  INFO 32232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:33:21.342  INFO 32232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:33:21.343  INFO 32232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 885 ms
+2025-05-13 02:33:22.881  INFO 32232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54840 (http) with context path ''
+2025-05-13 02:33:22.887  INFO 32232 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.703 seconds (JVM running for 4.171)
+2025-05-13 02:33:23.155  INFO 32232 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:33:23.155  INFO 32232 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:33:23.156  INFO 32232 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:33:23.664  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:33:23.711  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:33:23.712  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:33:23.754  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:33:23.755  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:33:23.799  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:33:23.799  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:33:23.840  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:33:23.841  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:33:23.841  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:33:23.841  INFO 32232 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:33:33.649  INFO 21316 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 21316 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:33:33.650 DEBUG 21316 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:33:33.650  INFO 21316 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:33:34.415  INFO 21316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:33:34.423  INFO 21316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:33:34.423  INFO 21316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:33:34.561  INFO 21316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:33:34.562  INFO 21316 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 874 ms
+2025-05-13 02:33:36.265  INFO 21316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54849 (http) with context path ''
+2025-05-13 02:33:36.272  INFO 21316 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.847 seconds (JVM running for 4.267)
+2025-05-13 02:33:36.559  INFO 21316 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:33:36.559  INFO 21316 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:33:36.560  INFO 21316 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:33:37.080  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:33:37.125  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:33:37.125  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:33:37.169  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:33:37.169  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:33:37.213  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:33:37.213  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:33:37.256  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:33:37.256  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:33:37.257  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:33:37.257  INFO 21316 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:33:46.437  INFO 8488 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 8488 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:33:46.437 DEBUG 8488 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:33:46.438  INFO 8488 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:33:47.220  INFO 8488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:33:47.228  INFO 8488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:33:47.229  INFO 8488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:33:47.374  INFO 8488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:33:47.374  INFO 8488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 898 ms
+2025-05-13 02:33:48.930  INFO 8488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54858 (http) with context path ''
+2025-05-13 02:33:48.937  INFO 8488 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.74 seconds (JVM running for 4.166)
+2025-05-13 02:33:49.199  INFO 8488 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:33:49.199  INFO 8488 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:33:49.200  INFO 8488 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:33:49.712  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:33:49.757  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:33:49.758  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:33:49.804  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:33:49.804  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:33:49.846  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:33:49.846  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:33:49.887  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:33:49.887  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:33:49.887  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:33:49.887  INFO 8488 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:33:57.016  INFO 31544 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 31544 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:33:57.017 DEBUG 31544 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:33:57.017  INFO 31544 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:33:57.809  INFO 31544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:33:57.817  INFO 31544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:33:57.817  INFO 31544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:33:57.957  INFO 31544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:33:57.957  INFO 31544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 902 ms
+2025-05-13 02:33:59.581  INFO 31544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54877 (http) with context path ''
+2025-05-13 02:33:59.588  INFO 31544 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.796 seconds (JVM running for 4.261)
+2025-05-13 02:33:59.849  INFO 31544 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:33:59.850  INFO 31544 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:33:59.851  INFO 31544 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:34:00.362  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:34:00.408  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:34:00.409  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:34:00.452  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:34:00.452  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:34:00.498  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:34:00.498  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:34:00.539  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:34:00.540  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:34:00.540  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:34:00.540  INFO 31544 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:35:47.360  INFO 20268 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 20268 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:35:47.361 DEBUG 20268 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:35:47.361  INFO 20268 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:35:48.211  INFO 20268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:35:48.220  INFO 20268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:35:48.220  INFO 20268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:35:48.361  INFO 20268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:35:48.361  INFO 20268 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 957 ms
+2025-05-13 02:35:50.088  INFO 20268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54919 (http) with context path ''
+2025-05-13 02:35:50.097  INFO 20268 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.001 seconds (JVM running for 4.527)
+2025-05-13 02:35:52.635  INFO 20268 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:35:52.636  INFO 20268 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:35:52.636  INFO 20268 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-13 02:35:53.206  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:35:53.248  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:35:53.250  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:35:53.290  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:35:53.290  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:35:53.330  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:35:53.330  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:35:53.371  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:35:53.371  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:35:53.372  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:35:53.372  INFO 20268 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:35:56.367  WARN 20268 --- [http-nio-auto-1-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /api/v1/projects/b53daa1e-e98e-4aad-b622-17e2bab5451a/projects/calls
+2025-05-13 02:36:18.075  INFO 31240 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 31240 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:36:18.076 DEBUG 31240 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:36:18.076  INFO 31240 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:36:18.937  INFO 31240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:36:18.946  INFO 31240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:36:18.946  INFO 31240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:36:19.092  INFO 31240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:36:19.093  INFO 31240 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 975 ms
+2025-05-13 02:36:20.843  INFO 31240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54943 (http) with context path ''
+2025-05-13 02:36:20.850  INFO 31240 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.047 seconds (JVM running for 4.65)
+2025-05-13 02:36:21.179  INFO 31240 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:36:21.179  INFO 31240 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:36:21.180  INFO 31240 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:36:21.811  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:36:21.860  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:36:21.862  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:36:21.912  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:36:21.913  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:36:21.965  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:36:21.965  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:36:22.009  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:36:22.010  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:36:22.010  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:36:22.010  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:39:06.791  INFO 16296 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 16296 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:39:06.792 DEBUG 16296 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:39:06.792  INFO 16296 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:39:07.651  INFO 16296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:39:07.661  INFO 16296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:39:07.661  INFO 16296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:39:07.823  INFO 16296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:39:07.823  INFO 16296 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 990 ms
+2025-05-13 02:39:09.487  INFO 16296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54996 (http) with context path ''
+2025-05-13 02:39:09.494  INFO 16296 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.968 seconds (JVM running for 4.504)
+2025-05-13 02:39:09.803  INFO 16296 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:39:09.803  INFO 16296 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:39:09.804  INFO 16296 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:39:10.381  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:39:10.428  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:39:10.430  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:39:10.473  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:39:10.473  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:39:10.518  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:39:10.518  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:39:10.561  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:39:10.561  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:39:10.561  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:39:10.561  INFO 16296 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:43:49.823  INFO 29020 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 29020 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:43:49.824 DEBUG 29020 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:43:49.825  INFO 29020 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:43:50.674  INFO 29020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:43:50.684  INFO 29020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:43:50.684  INFO 29020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:43:50.844  INFO 29020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:43:50.844  INFO 29020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 977 ms
+2025-05-13 02:43:52.527  INFO 29020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55170 (http) with context path ''
+2025-05-13 02:43:52.534  INFO 29020 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.976 seconds (JVM running for 4.585)
+2025-05-13 02:43:52.857  INFO 29020 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:43:52.857  INFO 29020 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:43:52.858  INFO 29020 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:43:53.416  INFO 29020 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:44:17.840  INFO 32616 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 32616 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:44:17.841 DEBUG 32616 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:44:17.841  INFO 32616 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:44:18.685  INFO 32616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:44:18.693  INFO 32616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:44:18.694  INFO 32616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:44:18.838  INFO 32616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:44:18.838  INFO 32616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 953 ms
+2025-05-13 02:44:20.575  INFO 32616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55191 (http) with context path ''
+2025-05-13 02:44:20.582  INFO 32616 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.017 seconds (JVM running for 4.599)
+2025-05-13 02:44:20.888  INFO 32616 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:44:20.888  INFO 32616 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:44:20.889  INFO 32616 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:44:21.483  INFO 32616 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:46:47.885  INFO 25004 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 25004 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:46:47.887 DEBUG 25004 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:46:47.887  INFO 25004 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:46:48.711  INFO 25004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:46:48.720  INFO 25004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:46:48.720  INFO 25004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:46:48.847  INFO 25004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:46:48.847  INFO 25004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 913 ms
+2025-05-13 02:46:50.627  INFO 25004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55280 (http) with context path ''
+2025-05-13 02:46:50.634  INFO 25004 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.045 seconds (JVM running for 4.623)
+2025-05-13 02:46:50.948  INFO 25004 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:46:50.948  INFO 25004 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:46:50.949  INFO 25004 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:46:51.582  INFO 25004 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:47:43.999  INFO 31100 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 31100 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:47:44.000 DEBUG 31100 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:47:44.000  INFO 31100 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:47:44.882  INFO 31100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:47:44.891  INFO 31100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:47:44.891  INFO 31100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:47:45.045  INFO 31100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:47:45.045  INFO 31100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1003 ms
+2025-05-13 02:47:46.761  INFO 31100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55304 (http) with context path ''
+2025-05-13 02:47:46.768  INFO 31100 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.036 seconds (JVM running for 4.592)
+2025-05-13 02:47:47.071  INFO 31100 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:47:47.071  INFO 31100 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:47:47.072  INFO 31100 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:47:47.659  INFO 31100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:52:12.222  INFO 21788 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 21788 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:52:12.223 DEBUG 21788 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:52:12.223  INFO 21788 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:52:13.134  INFO 21788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:52:13.145  INFO 21788 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:52:13.145  INFO 21788 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:52:13.289  INFO 21788 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:52:13.289  INFO 21788 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1020 ms
+2025-05-13 02:52:14.999  INFO 21788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55449 (http) with context path ''
+2025-05-13 02:52:15.007  INFO 21788 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.075 seconds (JVM running for 4.654)
+2025-05-13 02:52:15.326  INFO 21788 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:52:15.326  INFO 21788 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:52:15.327  INFO 21788 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:52:15.914  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:52:21.187  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:52:21.189  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:52:21.228  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:52:21.229  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:52:21.268  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:52:21.268  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:52:21.309  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:52:21.309  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:52:21.309  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:52:21.309  INFO 21788 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:53:11.645  INFO 2180 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 2180 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:53:11.645 DEBUG 2180 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:53:11.646  INFO 2180 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:53:12.496  INFO 2180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:53:12.505  INFO 2180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:53:12.505  INFO 2180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:53:12.658  INFO 2180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:53:12.659  INFO 2180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 972 ms
+2025-05-13 02:53:14.366  INFO 2180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55468 (http) with context path ''
+2025-05-13 02:53:14.375  INFO 2180 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.995 seconds (JVM running for 4.544)
+2025-05-13 02:53:14.731  INFO 2180 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:53:14.731  INFO 2180 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:53:14.732  INFO 2180 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:53:15.309  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:53:54.516  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:53:54.517  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:53:54.561  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:53:54.561  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:53:54.604  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:53:54.604  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:53:54.645  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:53:54.645  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:53:54.646  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:53:54.646  INFO 2180 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:55:19.458  INFO 16208 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 16208 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:55:19.459 DEBUG 16208 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:55:19.459  INFO 16208 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:55:20.329  INFO 16208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:55:20.338  INFO 16208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:55:20.338  INFO 16208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:55:20.497  INFO 16208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:55:20.497  INFO 16208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 995 ms
+2025-05-13 02:55:22.207  INFO 16208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55518 (http) with context path ''
+2025-05-13 02:55:22.215  INFO 16208 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.03 seconds (JVM running for 4.648)
+2025-05-13 02:55:22.535  INFO 16208 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:55:22.535  INFO 16208 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:55:22.536  INFO 16208 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:55:23.095  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:55:23.142  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:55:23.143  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:55:23.188  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:55:23.188  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:55:23.231  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:55:23.231  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:55:23.275  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:55:23.275  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:55:23.275  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:55:23.275  INFO 16208 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:55:47.342  INFO 31484 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 31484 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:55:47.343 DEBUG 31484 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:55:47.344  INFO 31484 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:55:48.208  INFO 31484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:55:48.217  INFO 31484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:55:48.217  INFO 31484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:55:48.371  INFO 31484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:55:48.372  INFO 31484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 986 ms
+2025-05-13 02:55:50.065  INFO 31484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55537 (http) with context path ''
+2025-05-13 02:55:50.072  INFO 31484 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.995 seconds (JVM running for 4.574)
+2025-05-13 02:55:50.377  INFO 31484 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:55:50.377  INFO 31484 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:55:50.378  INFO 31484 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:55:50.971  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:56:22.629  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:56:22.857  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:56:22.903  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:56:22.903  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:56:22.949  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:56:22.949  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:56:22.992  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:56:22.992  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:56:22.992  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:56:22.992  INFO 31484 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:56:30.954  INFO 23100 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 23100 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:56:30.955 DEBUG 23100 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:56:30.956  INFO 23100 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:56:31.802  INFO 23100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:56:31.811  INFO 23100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:56:31.811  INFO 23100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:56:31.966  INFO 23100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:56:31.966  INFO 23100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 968 ms
+2025-05-13 02:56:33.654  INFO 23100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55553 (http) with context path ''
+2025-05-13 02:56:33.661  INFO 23100 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.976 seconds (JVM running for 4.514)
+2025-05-13 02:56:33.990  INFO 23100 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:56:33.990  INFO 23100 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:56:33.991  INFO 23100 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:56:34.547  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:56:39.640  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:56:41.799  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:56:43.519  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:56:43.519  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:56:43.561  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:56:43.562  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:56:43.603  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 23 个关键概念
+2025-05-13 02:56:43.603  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 02:56:43.604  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 02:56:43.604  INFO 23100 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 02:56:53.376  INFO 31240 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 31240 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:56:53.376 DEBUG 31240 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:56:53.377  INFO 31240 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:56:54.227  INFO 31240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:56:54.236  INFO 31240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:56:54.236  INFO 31240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:56:54.390  INFO 31240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:56:54.390  INFO 31240 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 971 ms
+2025-05-13 02:56:56.095  INFO 31240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55565 (http) with context path ''
+2025-05-13 02:56:56.102  INFO 31240 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.996 seconds (JVM running for 4.528)
+2025-05-13 02:56:56.416  INFO 31240 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 02:56:56.416  INFO 31240 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 02:56:56.417  INFO 31240 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 02:56:56.999  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 02:59:37.270  INFO 31240 --- [main] o.apache.http.impl.execchain.RetryExec   : I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:55565: The target server failed to respond
+2025-05-13 02:59:37.270  INFO 31240 --- [main] o.apache.http.impl.execchain.RetryExec   : Retrying request to {}->http://localhost:55565
+2025-05-13 02:59:37.321  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 2 个方法节点和 1 个调用边
+2025-05-13 02:59:37.322  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 02:59:37.386  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 02:59:37.387  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 02:59:37.435  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 02:59:37.435  INFO 31240 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 02:59:58.475  INFO 31344 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 31344 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 02:59:58.475 DEBUG 31344 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 02:59:58.476  INFO 31344 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 02:59:59.347  INFO 31344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 02:59:59.356  INFO 31344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 02:59:59.356  INFO 31344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 02:59:59.506  INFO 31344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 02:59:59.506  INFO 31344 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 984 ms
+2025-05-13 03:00:01.162  INFO 31344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55704 (http) with context path ''
+2025-05-13 03:00:01.168  INFO 31344 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.961 seconds (JVM running for 4.522)
+2025-05-13 03:00:01.489  INFO 31344 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 03:00:01.489  INFO 31344 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 03:00:01.490  INFO 31344 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 03:20:58.672  INFO 31764 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 31764 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 03:20:58.673 DEBUG 31764 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 03:20:58.674  INFO 31764 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 03:20:59.424  INFO 31764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 03:20:59.433  INFO 31764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 03:20:59.433  INFO 31764 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 03:20:59.561  INFO 31764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 03:20:59.561  INFO 31764 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 847 ms
+2025-05-13 03:21:01.076  INFO 31764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56543 (http) with context path ''
+2025-05-13 03:21:01.082  INFO 31764 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.636 seconds (JVM running for 4.066)
+2025-05-13 03:21:01.343  INFO 31764 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 03:21:01.343  INFO 31764 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 03:21:01.344  INFO 31764 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 03:21:01.838  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 03:21:01.839 DEBUG 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 添加调用关系: CalculatorUser#sum -> Calculator#add
+2025-05-13 03:21:01.881  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 5 个方法节点和 4 个调用边
+2025-05-13 03:21:01.881  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 03:21:01.920  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 03:21:01.920  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 03:21:01.959  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 03:21:01.959  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 03:21:01.996  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 25 个关键概念
+2025-05-13 03:21:01.996  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 03:21:01.997  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 03:21:01.997  INFO 31764 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 03:21:06.659  INFO 30396 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 30396 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 03:21:06.660 DEBUG 30396 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 03:21:06.660  INFO 30396 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 03:21:07.451  INFO 30396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 03:21:07.460  INFO 30396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 03:21:07.460  INFO 30396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 03:21:07.601  INFO 30396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 03:21:07.602  INFO 30396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 901 ms
+2025-05-13 03:21:09.134  INFO 30396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56551 (http) with context path ''
+2025-05-13 03:21:09.140  INFO 30396 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.703 seconds (JVM running for 4.172)
+2025-05-13 03:21:09.408  INFO 30396 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 03:21:09.408  INFO 30396 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 03:21:09.409  INFO 30396 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-13 03:21:09.922  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 03:21:09.923 DEBUG 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 添加调用关系: CalculatorUser#sum -> Calculator#add
+2025-05-13 03:21:09.969  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 5 个方法节点和 4 个调用边
+2025-05-13 03:21:09.969  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 03:21:10.013  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 03:21:10.014  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 03:21:10.056  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 03:21:10.056  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 03:21:10.098  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 25 个关键概念
+2025-05-13 03:21:10.098  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 03:21:10.099  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 03:21:10.099  INFO 30396 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 03:21:14.697  INFO 31824 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 31824 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 03:21:14.697 DEBUG 31824 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 03:21:14.698  INFO 31824 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 03:21:15.478  INFO 31824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 03:21:15.486  INFO 31824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 03:21:15.486  INFO 31824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 03:21:15.625  INFO 31824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 03:21:15.625  INFO 31824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 889 ms
+2025-05-13 03:21:17.172  INFO 31824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56562 (http) with context path ''
+2025-05-13 03:21:17.178  INFO 31824 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.701 seconds (JVM running for 4.204)
+2025-05-13 03:21:17.449  INFO 31824 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 03:21:17.449  INFO 31824 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 03:21:17.451  INFO 31824 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 03:21:17.954  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 03:21:17.955 DEBUG 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 添加调用关系: CalculatorUser#sum -> Calculator#add
+2025-05-13 03:21:18.004  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 5 个方法节点和 4 个调用边
+2025-05-13 03:21:18.005  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 03:21:18.049  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 03:21:18.049  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 03:21:18.092  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 03:21:18.093  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 03:21:18.134  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 25 个关键概念
+2025-05-13 03:21:18.134  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 03:21:18.134  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 03:21:18.134  INFO 31824 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 03:21:31.442  INFO 23428 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 23428 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 03:21:31.442 DEBUG 23428 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 03:21:31.443  INFO 23428 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 03:21:32.229  INFO 23428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 03:21:32.237  INFO 23428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 03:21:32.237  INFO 23428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 03:21:32.377  INFO 23428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 03:21:32.377  INFO 23428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 897 ms
+2025-05-13 03:21:33.958  INFO 23428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56575 (http) with context path ''
+2025-05-13 03:21:33.965  INFO 23428 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.762 seconds (JVM running for 4.243)
+2025-05-13 03:21:34.230  INFO 23428 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 03:21:34.230  INFO 23428 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 03:21:34.231  INFO 23428 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 03:21:34.771  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 03:21:34.772 DEBUG 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 添加调用关系: CalculatorUser#sum -> Calculator#add
+2025-05-13 03:21:34.821  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 5 个方法节点和 4 个调用边
+2025-05-13 03:21:34.822  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 03:21:34.868  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 03:21:34.868  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 03:21:34.912  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 03:21:34.912  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 03:21:34.956  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 25 个关键概念
+2025-05-13 03:21:34.957  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 03:21:34.957  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 03:21:34.957  INFO 23428 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 03:21:42.434  INFO 28744 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 28744 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 03:21:42.435 DEBUG 28744 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 03:21:42.436  INFO 28744 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 03:21:43.360  INFO 28744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 03:21:43.370  INFO 28744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 03:21:43.371  INFO 28744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 03:21:43.537  INFO 28744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 03:21:43.537  INFO 28744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1056 ms
+2025-05-13 03:21:45.366  INFO 28744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56587 (http) with context path ''
+2025-05-13 03:21:45.374  INFO 28744 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.206 seconds (JVM running for 4.927)
+2025-05-13 03:21:45.712  INFO 28744 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 03:21:45.712  INFO 28744 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 03:21:45.713  INFO 28744 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 03:21:46.272  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 03:21:46.273 DEBUG 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 添加调用关系: CalculatorUser#sum -> Calculator#add
+2025-05-13 03:21:46.321  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 5 个方法节点和 4 个调用边
+2025-05-13 03:21:48.618  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 03:21:49.748  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 03:21:49.748  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 03:21:49.792  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 03:21:49.793  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 03:21:49.837  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 25 个关键概念
+2025-05-13 03:21:49.837  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 03:21:49.837  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 03:21:49.837  INFO 28744 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 03:23:10.628  INFO 15480 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 15480 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 03:23:10.629 DEBUG 15480 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 03:23:10.629  INFO 15480 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 03:23:11.475  INFO 15480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 03:23:11.483  INFO 15480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 03:23:11.484  INFO 15480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 03:23:11.638  INFO 15480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 03:23:11.638  INFO 15480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 966 ms
+2025-05-13 03:23:13.301  INFO 15480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56642 (http) with context path ''
+2025-05-13 03:23:13.307  INFO 15480 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 2.956 seconds (JVM running for 4.564)
+2025-05-13 03:23:13.606  INFO 15480 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 03:23:13.607  INFO 15480 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 03:23:13.608  INFO 15480 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 03:23:14.194  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 03:23:46.748 DEBUG 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 添加调用关系: CalculatorUser#sum -> Calculator#add
+2025-05-13 03:23:46.799  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 5 个方法节点和 4 个调用边
+2025-05-13 03:23:46.799  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 03:23:46.846  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 03:23:46.846  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 03:23:46.890  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 03:23:46.890  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 03:23:46.932  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 25 个关键概念
+2025-05-13 03:23:46.932  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 03:23:46.932  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 03:23:46.932  INFO 15480 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成
+2025-05-13 03:24:08.149  INFO 32120 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Starting CodeAnalyzerApiControllerTest using Java 1.8.0_291 on DESKTOP-22ISCRV with PID 32120 (started by Shannon in D:\01Code\java-code-analyzer\backend)
+2025-05-13 03:24:08.149 DEBUG 32120 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Running with Spring Boot v2.7.14, Spring v5.3.29
+2025-05-13 03:24:08.150  INFO 32120 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-05-13 03:24:09.008  INFO 32120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2025-05-13 03:24:09.018  INFO 32120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-13 03:24:09.018  INFO 32120 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-05-13 03:24:09.177  INFO 32120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-13 03:24:09.177  INFO 32120 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 984 ms
+2025-05-13 03:24:10.873  INFO 32120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56667 (http) with context path ''
+2025-05-13 03:24:10.880  INFO 32120 --- [main] c.c.ast.CodeAnalyzerApiControllerTest    : Started CodeAnalyzerApiControllerTest in 3.015 seconds (JVM running for 4.592)
+2025-05-13 03:24:11.193  INFO 32120 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 03:24:11.194  INFO 32120 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-13 03:24:11.195  INFO 32120 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-13 03:32:49.654  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始构建方法调用图...
+2025-05-13 03:33:36.468 DEBUG 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 添加调用关系: CalculatorUser#sum -> Calculator#add
+2025-05-13 03:34:58.547  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 方法调用图构建完成，共 5 个方法节点和 4 个调用边
+2025-05-13 03:35:00.682  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始数据流分析...
+2025-05-13 03:35:14.768  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 数据流分析完成，共分析 3 个方法
+2025-05-13 03:35:14.768  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码相似度分析...
+2025-05-13 03:35:14.812  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码相似度分析完成，发现 1 对潜在重复代码
+2025-05-13 03:35:14.812  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始提取概念关键字...
+2025-05-13 03:35:14.855  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 概念提取完成，共提取 25 个关键概念
+2025-05-13 03:35:14.855  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 开始代码质量分析...
+2025-05-13 03:35:14.855  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 代码质量分析完成，发现 0 个潜在问题
+2025-05-13 03:35:14.855  INFO 32120 --- [pool-1-thread-1] c.c.semantic.SemanticAnalyzer            : 项目语义分析完成

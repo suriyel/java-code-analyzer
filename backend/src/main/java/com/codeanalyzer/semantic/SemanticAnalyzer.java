@@ -123,8 +123,9 @@ public class SemanticAnalyzer {
 
             for (String calledMethod : calledMethods) {
                 // 尝试查找被调用方法的全限定名
+                String fullCalledMethodId = resolveMethodCall(methodEntity, calledMethod);
                 // 简化处理，实际应从符号表解析
-                callGraph.addCall(methodId, calledMethod);
+                callGraph.addCall(methodId, fullCalledMethodId);
             }
         }
 
@@ -133,6 +134,39 @@ public class SemanticAnalyzer {
 
         logger.info("方法调用图构建完成，共 {} 个方法节点和 {} 个调用边",
                 callGraph.getNodes().size(), callGraph.getEdgeCount());
+    }
+
+    // 尝试解析方法调用的全限定名
+    private String resolveMethodCall(CodeEntity caller, String calledMethodName) {
+        // 1. 首先查找同一类中的方法
+        String callerClass = caller.getParentName();
+
+        // 遍历所有方法实体，寻找匹配的方法
+        for (CodeEntity entity : projectStructure.getEntities()) {
+            if (entity.getType().toString().equals("METHOD") &&
+                    entity.getName().equals(calledMethodName)) {
+
+                // 返回格式：ClassName#methodName
+                return entity.getParentName() + "#" + calledMethodName;
+            }
+        }
+
+        // 2. 如果找不到完整匹配，至少保留类名信息（如果存在）
+        // 查找是否有引用的字段类型
+        for (CodeEntity entity : projectStructure.getEntities()) {
+            if (entity.getType().toString().equals("FIELD") &&
+                    entity.getParentName().equals(callerClass)) {
+
+                String fieldType = entity.getFieldType();
+                // 如果找到匹配的字段类型，使用该类型作为前缀
+                if (fieldType != null && !fieldType.isEmpty()) {
+                    return fieldType + "#" + calledMethodName;
+                }
+            }
+        }
+
+        // 3. 如果无法解析，使用原始名称
+        return calledMethodName;
     }
 
     /**

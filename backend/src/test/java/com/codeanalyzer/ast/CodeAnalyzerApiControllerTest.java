@@ -1,5 +1,6 @@
 package com.codeanalyzer.ast;
 
+import com.codeanalyzer.api.CodeAnalyzerApiApplication;
 import com.codeanalyzer.api.ProjectResponse;
 import com.codeanalyzer.index.SearchResult;
 import com.codeanalyzer.semantic.QualityIssue;
@@ -14,6 +15,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.http.*;
+import org.springframework.test.context.TestPropertySource;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 
@@ -22,6 +24,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
@@ -32,7 +35,14 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * REST API测试
  */
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(
+        classes = CodeAnalyzerApiApplication.class,
+        webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
+)
+@TestPropertySource(properties = {
+        "analyzer.projects.dir=${java.io.tmpdir}/code-analyzer-test/projects",
+        "analyzer.index.dir=${java.io.tmpdir}/code-analyzer-test/indexes"
+})
 class CodeAnalyzerApiControllerTest {
 
     @Autowired
@@ -54,11 +64,49 @@ class CodeAnalyzerApiControllerTest {
 
     @BeforeEach
     void setUp() throws Exception {
+        // 确保测试目录存在 - 使用JDK 8兼容方法
+        Path projectsDir = Paths.get(System.getProperty("java.io.tmpdir"), "code-analyzer-test", "projects");
+        Path indexesDir = Paths.get(System.getProperty("java.io.tmpdir"), "code-analyzer-test", "indexes");
+
+        try {
+            Files.createDirectories(projectsDir);
+            Files.createDirectories(indexesDir);
+        } catch (IOException e) {
+            throw new RuntimeException("无法创建测试目录", e);
+        }
+
         // 上传项目
         uploadProject();
 
-        // 等待分析完成
-        Thread.sleep(2000);
+        // 轮询等待项目分析完成
+        ResponseEntity<ProjectResponse> response;
+        int maxRetries = 30;  // 最多等待30次
+        int retryInterval = 1000;  // 每次间隔1秒
+        int retryCount = 0;
+
+        do {
+            Thread.sleep(retryInterval);
+            response = restTemplate.getForEntity(
+                    "/api/v1/projects/{projectId}",
+                    ProjectResponse.class,
+                    projectId);
+            retryCount++;
+
+            System.out.println("等待项目分析完成，当前状态: " +
+                    (response.getBody() != null ? response.getBody().getStatus() : "unknown") +
+                    ", 重试次数: " + retryCount);
+
+        } while (retryCount < maxRetries &&
+                response.getBody() != null &&
+                !"READY".equals(response.getBody().getStatus()));
+
+        if (retryCount >= maxRetries) {
+            throw new RuntimeException("等待项目分析超时");
+        }
+
+        // 确认项目状态为READY
+        assertEquals("READY", response.getBody().getStatus(),
+                "项目分析应该已经完成");
     }
 
     @Test

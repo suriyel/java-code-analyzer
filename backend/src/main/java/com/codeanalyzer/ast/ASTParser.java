@@ -33,12 +33,12 @@ import java.util.concurrent.Future;
 public class ASTParser {
     // 文件->编译单元的映射缓存
     private final Map<Path, CompilationUnit> parsedUnits = new ConcurrentHashMap<>();
-    // JavaParser实例
-    private final JavaParser javaParser;
     // 线程池，用于并行解析
     private final ExecutorService executorService;
     // IR构建器
     private final IRBuilder irBuilder = new IRBuilder();
+    // 源代码根路径
+    private final List<Path> sourceRootPaths;
 
     /**
      * 初始化AST解析器
@@ -46,25 +46,8 @@ public class ASTParser {
      * @param threadCount 解析线程数
      */
     public ASTParser(List<Path> sourceRootPaths, int threadCount) {
-        // 设置类型解析器
-        CombinedTypeSolver typeSolver = new CombinedTypeSolver();
-        // 添加Java标准库解析器
-        typeSolver.add(new ReflectionTypeSolver());
-
-        // 添加项目源码解析器
-        for (Path path : sourceRootPaths) {
-            typeSolver.add(new JavaParserTypeSolver(path));
-        }
-
-        // 创建并配置符号解析器
-        JavaSymbolSolver symbolSolver = new JavaSymbolSolver(typeSolver);
-
-        // 创建JavaParser并配置
-        javaParser = new JavaParser();
-        javaParser.getParserConfiguration().setSymbolResolver(symbolSolver);
-
-        // 初始化线程池
-        executorService = Executors.newFixedThreadPool(threadCount);
+        this.sourceRootPaths = new ArrayList<>(sourceRootPaths);
+        this.executorService = Executors.newFixedThreadPool(threadCount);
     }
 
     /**
@@ -74,25 +57,36 @@ public class ASTParser {
      */
     public ParsedProjectStructure parseProject(Path rootDir) {
         List<File> javaFiles = collectJavaFiles(rootDir.toFile());
-        List<Future<CompilationUnit>> parseFutures = new ArrayList<>();
 
-        // 并行解析所有Java文件
-        for (File file : javaFiles) {
-            parseFutures.add(executorService.submit(() -> parseFile(file)));
+        // 单阶段解析 - 为了避免多线程问题，使用单线程顺序解析
+        // 对于测试用例，这是最可靠的方法
+
+        // 设置符号解析器
+        CombinedTypeSolver typeSolver = new CombinedTypeSolver();
+        typeSolver.add(new ReflectionTypeSolver());
+        for (Path path : sourceRootPaths) {
+            typeSolver.add(new JavaParserTypeSolver(path));
         }
+        JavaSymbolSolver symbolSolver = new JavaSymbolSolver(typeSolver);
 
-        // 收集解析结果
+        // 创建JavaParser并配置
+        JavaParser javaParser = new JavaParser();
+        javaParser.getParserConfiguration().setSymbolResolver(symbolSolver);
+
+        // 创建项目结构
         ParsedProjectStructure projectStructure = new ParsedProjectStructure();
-        for (Future<CompilationUnit> future : parseFutures) {
+
+        // 顺序解析所有文件 - 避免并发问题
+        for (File file : javaFiles) {
             try {
-                CompilationUnit cu = future.get();
+                CompilationUnit cu = parseFile(file, javaParser);
                 if (cu != null) {
                     // 访问并提取AST节点信息
                     cu.accept(new ASTVisitor(), projectStructure);
                 }
             } catch (Exception e) {
-                // 记录并继续处理其他文件
-                System.err.println("Error parsing file: " + e.getMessage());
+                System.err.println("解析文件出错 " + file.getPath() + ": " + e.getMessage());
+                e.printStackTrace();  // 打印详细堆栈便于调试
             }
         }
 
@@ -102,21 +96,52 @@ public class ASTParser {
         return projectStructure;
     }
 
-    /**
-     * 解析单个Java文件
-     * @param file Java源文件
-     * @return 编译单元(CompilationUnit)
-     */
-    private CompilationUnit parseFile(File file) {
+    private CompilationUnit parseFile(File file, JavaParser parser) {
         try (FileInputStream in = new FileInputStream(file)) {
-            ParseResult<CompilationUnit> parseResult = javaParser.parse(in);
-            if (parseResult.isSuccessful() && parseResult.getResult().isPresent()) {
-                CompilationUnit cu = parseResult.getResult().get();
-                parsedUnits.put(file.toPath(), cu);
-                return cu;
+            // 确保文件有内容
+            if (file.length() == 0) {
+                System.err.println("警告: 文件为空 " + file.getPath());
+                return null;
+            }
+
+            // 读取文件内容便于调试
+            byte[] content = new byte[(int)file.length()];
+            in.read(content);
+            String sourceCode = new String(content, "UTF-8");
+
+            // 重置文件流
+            in.getChannel().position(0);
+
+            // 解析文件
+            ParseResult<CompilationUnit> parseResult = parser.parse(in);
+
+            // 检查解析结果
+            if (parseResult.isSuccessful()) {
+                if (parseResult.getResult().isPresent()) {
+                    CompilationUnit cu = parseResult.getResult().get();
+
+                    // 验证编译单元不为空
+                    if (cu.getTypes().isEmpty() && !sourceCode.trim().isEmpty()) {
+                        System.err.println("警告: 文件 " + file.getPath() + " 解析成功但未检测到任何类型定义");
+                        System.err.println("文件内容: \n" + sourceCode);
+                    } else {
+                        parsedUnits.put(file.toPath(), cu);
+                        return cu;
+                    }
+                } else {
+                    System.err.println("警告: 文件 " + file.getPath() + " 解析成功但结果为空");
+                    System.err.println("文件内容: \n" + sourceCode);
+                }
+            } else {
+                System.err.println("解析失败: " + file.getPath());
+                parseResult.getProblems().forEach(p ->
+                        System.err.println("  - " + p.getMessage())
+                );
+                System.err.println("文件内容: \n" + sourceCode);
             }
         } catch (Exception e) {
-            System.err.println("Error parsing file " + file.getPath() + ": " + e.getMessage());
+            System.err.println("解析文件异常 " + file.getPath() + ": " + e.getMessage());
+            e.printStackTrace();
         }
         return null;
     }

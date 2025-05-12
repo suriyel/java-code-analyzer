@@ -32,7 +32,6 @@ import java.util.concurrent.Executors;
 @RestController
 @RequestMapping("/api/v1")
 public class CodeAnalyzerApiController {
-
     private final ExecutorService executorService = Executors.newFixedThreadPool(4);
 
     // 项目ID -> 分析系统实例
